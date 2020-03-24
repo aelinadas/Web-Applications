@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form</title>
+    </head>
+    <body>
+            <h1>Form</h1>
+            <form action="form" method="GET">
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="email" required>
+                    <br/>
+                    <br/>
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" name="password" placeholder="password" minlength="5" maxlength="10" required>
+                    <br/>
+                    <br/>
+                    <label for="confirm password">Confirm Password:</label>
+                    <input id="confirm password" type="password" name="confirm password" placeholder="confirm password" minlength="5" maxlength="10" required>
+                    <br/>
+                    <br/>
+                </div>
+                <div> 
+                    <label for="file">Upload your Picture:</label>
+                    <input type="file"  value="Browse" id="imgFile" name="image" accept="file_extension|video/*|image/*|media_type" required/><br/>
+                    <script>
+                        function myFunction() {
+                          var x = document.getElementById("imgFile");
+                          x.disabled = true;
+                        }   
+                    </script>   
+                    <br/>
+                </div>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value="male"/>Male
+                    <input type="radio" name="gender" value="female"/>Female
+                    <br/>
+                    <br/>
+                </div>
+                <div>
+                    <label for="country">Select Country:</label>
+                    <select id="country" name="country">
+                        <option>India</option>
+                        <option>United States</option>
+                        <option>United Kingdom</option>
+                        <option>France</option>
+                        <option>Germany</option>
+                        <option>Italy</option>
+                        <option>Greece</option>
+                        <option>China</option>
+                        <option>Japan</option>
+                        <option>South Africa</option>
+                        <option>Australia</option>
+                        <option>New Zealand</option>
+                        <option>Canada</option>
+                    </select> 
+                    <br/>
+                    <br/>
+                </div>
+                <div>
+                    <label for="hobby">Hobby:</label>
+                    <input id="hobby" type="checkbox" name="hobby" value="cricket">Cricket 
+                    <input id="hobby" type="checkbox" name="hobby" value="football">Football 
+                    <br/>
+                    <br/>
+                </div>
+                <div>
+                    <label for="address">Address:</label>
+                    <textarea id="address"rows="4" cols="30" name="address"></textarea>
+                    <br/>
+                    <br/>
+                </div>
+                <input type="submit"> 
+            </form>
+    </body>
+</html>

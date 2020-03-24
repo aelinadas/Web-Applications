@@ -1,0 +1,55 @@
+<web-app>
+	<servlet>
+		<servlet-name>FormServlet</servlet-name>
+		<servlet-class>FormServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FormServlet</servlet-name>
+		<url-pattern>/form</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FormServletParam</servlet-name>
+		<servlet-class>FormServletParam</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FormServletParam</servlet-name>
+		<url-pattern>/formParam</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FormServletMaps</servlet-name>
+		<servlet-class>FormServletMaps</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FormServletMaps</servlet-name>
+		<url-pattern>/formMaps</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FormServletEnum</servlet-name>
+		<servlet-class>FormServletEnum</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FormServletEnum</servlet-name>
+		<url-pattern>/formHeader</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FormServletChildren</servlet-name>
+		<servlet-class>FormServletChildren</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FormServletChildren</servlet-name>
+		<url-pattern>/childrenForm</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>form.html</welcome-file>
+	</welcome-file-list>
+</web-app>

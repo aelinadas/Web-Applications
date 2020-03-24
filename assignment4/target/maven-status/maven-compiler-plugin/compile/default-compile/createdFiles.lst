@@ -1,0 +1,7 @@
+neu/edu/models/Movie.class
+neu/edu/controllers/MovieController.class
+neu/edu/controllers/BeanMovieController.class
+neu/edu/interceptors/MovieInterceptor.class
+neu/edu/controllers/ClassMovieController.class
+neu/edu/filters/MovieFilter.class
+neu/edu/dao/MovieDAO.class
